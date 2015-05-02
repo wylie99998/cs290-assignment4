@@ -1,0 +1,4 @@
+table{
+border: solid thick; border-color: black;
+}
+td {border: solid thin; height 1.5em; width 1.5em;}

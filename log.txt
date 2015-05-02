@@ -1,0 +1,10 @@
+Start 1:30 end 7:00 4/30
+finished log in and most of content1 TODO: log out destrot session.
+
+ 
+start 3:00 end 5:00  5/1
+worked on content and log in bugs
+
+start 3 end 640 5/2
+completed multtable and loopback and debuged on server
+
