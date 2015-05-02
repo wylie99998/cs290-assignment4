@@ -4,7 +4,7 @@ $g =0;
 $p =0;
 if (empty($_GET)) {
     if(empty($_POST)){
-		echo 'error get and post are empty';
+		echo '{"Type":"[GET|POST]", "parameters":null}';
 	}
 	else{
 		
