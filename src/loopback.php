@@ -22,13 +22,19 @@ if($g == 1 || $p ==1){
 	if($g == 1){
 		$arr['Type']= "GET";
 		$arr['Parameters'] = $_GET;
-		
+		foreach($arr['Parameters'] as $key => $value)
+		if($arr['Parameters'][$key] == ""){
+			$arr['Parameters'][$key] = "undefined";
+		}
 		echo json_encode($arr);
 	}
 	else{
 		$arr['Type']= "POST";
 		$arr['Parameters'] = $_POST;
-		
+		foreach($arr['Parameters'] as $key => $value)
+		if($arr['Parameters'][$key] == ""){
+			$arr['Parameters'][$key] = "undefined";
+		}
 		echo json_encode($arr);
 	}
 }
