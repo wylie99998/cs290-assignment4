@@ -1,10 +1,15 @@
-Start 1:30 end 7:00 4/30
-finished log in and most of content1 TODO: log out destrot session.
 
- 
-start 3:00 end 5:00  5/1
-worked on content and log in bugs
+Start: Thr, 30 Apr 2015 13:05:00 -0800
+End: Thr, 30 Apr 2015 18:30:00 -0800
+Tasks: During this period I completely wrote log in, and content1, 
+TODO: log out and content 2 fix bugs when logging in with null input
 
-start 3 end 640 5/2
-completed multtable and loopback and debuged on server
+Start: Fri, 22 May 2015 15:20:00 -0800
+End: Fri, 1 May 2015 18:45:00 -0800
+Tasks: Degbugged log in and content, and started briefly on muttable.
+fixed error for when input for log in was a whitespace.    
 
+Start: Sat, 22 May 2015 16:00:00 -0800
+End: Sat, 1 May 2015 21:30:00 -0800
+Tasks: completed muttable and loopback, error tested on server with post and get
+debugged some styling issues.  Added handling for null values on loopback   
